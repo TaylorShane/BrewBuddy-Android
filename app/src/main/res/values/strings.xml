@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Brew Buddy</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="options">
+        <item>Recipes</item>
+        <item>ABV Calculator</item>
+        <item>Bottle Calculator</item>
+    </string-array>
+    <string name="title_activity_drink_category">DrinkCategoryActivity</string>
+    <string name="title_activity_drink">DrinkActivity</string>
+    <string name="favorite">Favorite</string>
+    <string name="favorites">Your favorite recipes:</string>
+    <string name="brew_buddy_logo">Brew Buddy Logo</string>
+    <string name="title_activity_abvcalculator">ABVCalculator</string>
+    <string name="welcome_text">Welcome to Brew Buddy! \n</string>
+    <string name="explain_text">A quick and easy app to help you brew your favorite beers!\n \n Below you will find detailed recipes with beer style descriptions, an alcohol by volume calculator to tell you what percentage of alcohol your finished beer is, and a bottle calculator so you know exactly how many bottles you need to bottle your homebrew.</string>
+    <string name="GallonsOfBeerLabel">Gallons of Beer to bottle:  </string>
+    <string name="SizeOfBottlesLabel">How many ounces are in each bottle?</string>
+    <string name="num_bottles_needed_label">Number of Bottles Needed: </string>
+    <string name="BottleNumber">0</string>
+    <string name="submit_button">Submit</string>
+    <string name="string_12oz">12</string>
+    <string name="string_24oz">24</string>
+    <string name="lager">lager</string>
+    <string name="ale">ale</string>
+    <string name="which">Which do you prefer?</string>
+    <string name="btn_display">Submit</string>
+    <string name="title_activity_bottle_options">BottleOptions</string>
+    <string name="OG">Original Gravity</string>
+    <string name="FG">Final Gravity</string>
+    <string name="ABV">Your ABV is:</string>
+    <string name="ABV_result" />
+    <string name="hint"> 0 </string>
+    <string name="hint_OG">eg. 1.050</string>
+    <string name="hint_FG">eg. 1.010</string>
+    <string name="Recipe_Title">Sample Recipe</string>
+    <string name="grains">Grains</string>
+    <string name="hops">Hops</string>
+    <string name="yeast">Yeast</string>
+</resources>

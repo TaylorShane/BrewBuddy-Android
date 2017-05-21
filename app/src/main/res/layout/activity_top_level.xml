@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context=".TopLevelActivity"
+              android:background="#FFE8C22A">
+
+  <ImageView android:layout_width="match_parent"
+             android:layout_height="100dp"
+             android:src="@drawable/brew_buddy_logo"
+             android:contentDescription="@string/brew_buddy_logo"
+            android:background="#FFE8C22A" />
+  <TextView
+      android:layout_width="wrap_content"
+      android:id="@+id/hello"
+      android:text="@string/welcome_text"
+      android:layout_gravity="center"
+      android:layout_margin="5dp"
+      android:padding="5dp"
+      android:textStyle="normal|bold"
+      android:textSize="18sp"
+      android:paddingBottom="-5dp"
+      android:layout_height="40dp"
+      android:background="#FFE8C22A"/>
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/bb_explanation"
+      android:text="@string/explain_text"
+      android:layout_margin="5dp"
+      android:padding="5dp"
+      android:paddingTop="0dp"
+      android:layout_marginTop="-15dp"
+      android:layout_gravity="left"
+      android:background="#FFE8C22A"/>
+
+  <ListView android:id="@+id/list_options"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/options"
+            android:background="#FFE8C22A" />
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="50dp"
+      android:textAppearance="?android:attr/textAppearanceLarge"
+      android:text="@string/favorites"
+      android:background="#FFE8C22A"
+      android:layout_marginLeft="5dp" />
+
+  <ListView
+      android:id="@+id/list_favorites"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="#FFE8C22A"
+      android:layout_margin="5dp" />
+</LinearLayout>

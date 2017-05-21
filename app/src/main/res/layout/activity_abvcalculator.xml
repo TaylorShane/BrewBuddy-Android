@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_abvcalculator"
+    android:background="@color/colorPrimary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.hfad.starbuzz.ABVCalculator"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/OGlabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/OG"
+        android:layout_weight=".2"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:gravity="center" />
+
+    <EditText
+        android:id="@+id/OG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_OG"
+        android:inputType="numberDecimal"
+        android:textSize="25sp"
+        android:layout_weight=".2"
+        android:layout_gravity="top|center"
+        style="@android:style/Widget.DeviceDefault.Light.AutoCompleteTextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Small" />
+
+    <TextView
+        android:id="@+id/FGlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/FG"
+        android:layout_weight=".2"
+        android:layout_gravity="center"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/FG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_FG"
+        android:inputType="numberDecimal"
+        android:textSize="25sp"
+        android:visibility="visible"
+
+        android:layout_weight=".15"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/SubmitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/submit_button"
+        android:onClick="onClickABVCalc"
+        android:layout_gravity="center"
+        android:layout_weight=".2"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/ABVlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ABV"
+        android:layout_weight=".2"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="25dp" />
+
+    <TextView
+        android:id="@+id/ABV_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ABV_result"
+        android:textSize="30sp"
+        android:hint=""
+        android:layout_weight=".25"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>
